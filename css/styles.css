@@ -39,20 +39,18 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.logo .web,
 .logo .studio {
   display: inline; /* Зробити елементи одним рядком */
   color: inherit;
   font-weight: inherit;
   margin: 0; /* Відсутність зайвих відступів */
   padding: 0;
-}
-
-.logo .web {
-  color: #4d5ae5; /* Синій колір для "WEB" */
 }
 
 .logo .studio {
