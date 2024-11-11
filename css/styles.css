@@ -83,12 +83,11 @@ address ul a:focus {
   color: #404bbf; /* Колір при наведенні або фокусі */
 }
 
-
 header .contacts {
   display: flex;
   align-items: center; /* Вирівнює по вертикалі */
   justify-content: flex-end; /* Вирівнює елементи по правому краю */
-  font-style: normal
+  font-style: normal;
 }
 
 header .contacts ul {
