@@ -317,13 +317,16 @@ header .contacts ul li {
 .portfolio li {
     width: 360px;
     height: 420px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-label {
-    border: 1px solid #E7E9FC;
+    border-width: 0px, 1px, 1px, 1px;
+    border-style: solid;    
+    border-color: #E7E9FC;
+    border-top: 0px;
     width: 360px;
-    background: red;
 }
 
 .portfolio h3 {
