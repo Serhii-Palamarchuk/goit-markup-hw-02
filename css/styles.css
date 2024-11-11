@@ -132,7 +132,7 @@ header .contacts ul li {
   color: #ffffff; /* Білий колір для тексту */
 }
 
-.hero h1 {
+.hero-header {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
