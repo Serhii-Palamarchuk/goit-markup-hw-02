@@ -315,13 +315,15 @@ header .contacts ul li {
 }
 
 .portfolio li {
-    width: 36px;
+    width: 360px;
     height: 420px;
 
 }
 
 .portfolio-label {
     border: 1px solid #E7E9FC;
+    width: 360px;
+    background: red;
 }
 
 .portfolio h3 {
