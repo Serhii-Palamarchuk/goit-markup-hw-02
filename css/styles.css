@@ -136,15 +136,11 @@ header .contacts ul li {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  margin-bottom: 40px;
-  letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 600px;
-  margin: 0 auto 40px;
+  line-height: 1.07
 }
 
-.hero button {
+.hero-button {
   background-color: #4d5ae5; /* IRIS */
   color: #ffffff;
   border: none;
@@ -160,6 +156,7 @@ header .contacts ul li {
   border-radius: 4px; /* Радіус */
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
+  letter-spacing: 0.04em
 }
 
 .hero button:hover {
