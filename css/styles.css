@@ -82,6 +82,7 @@ header .contacts {
   display: flex;
   align-items: center; /* Вирівнює по вертикалі */
   justify-content: flex-end; /* Вирівнює елементи по правому краю */
+  font-style: normal
 }
 
 header .contacts ul {
