@@ -159,9 +159,9 @@ header .contacts ul li {
   letter-spacing: 0.04em;
 }
 
-.hero-button:focus,
-.hero-button:hover {
-  background-color: #404BBF;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 /* Features Section Styles */
@@ -227,7 +227,7 @@ header .contacts ul li {
 .team {
   padding: 60px 20px;
   text-align: center;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-h {
@@ -238,7 +238,7 @@ header .contacts ul li {
   letter-spacing: 0.02em; /* Відповідає 2% */
   color: #2e2f42; /* Колір, відповідно до макету */
   text-align: center; /* Вирівнювання по центру */
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
   text-transform: capitalize;
 }
 
@@ -281,7 +281,7 @@ header .contacts ul li {
   font-weight: 500;
   font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
   margin-bottom: 10px;
-  color: #2e2f42; 
+  color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -410,7 +410,7 @@ footer a.logo-footer {
   line-height: 1.5;
   padding-left: 156px;
   text-align: left;
-  color: #F4F4FD;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
 
