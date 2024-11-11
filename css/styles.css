@@ -150,15 +150,25 @@ header .contacts ul li {
     background-color: #4D5AE5; /* IRIS */
     color: #FFFFFF;
     border: none;
-    padding: 16px 32px;
+    width: 169px; /* Відповідно до макету */
+    height: 56px; /* Відповідно до макету */
+    padding: 16px 32px; /* Внутрішні відступи */
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border-radius: 4px; /* Радіус */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
 }
+
+.hero button:hover {
+    background-color: #3C4DBA; /* Додатковий колір для ефекту при наведенні (можна змінити за бажанням) */
+    transform: translateY(-3px);
+}
+
 
 /* Features Section Styles */
 .features {
@@ -171,23 +181,23 @@ header .contacts ul li {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .features ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    max-width: 1128px;
     margin: 0 auto;
+    padding: 0;
 }
 
-.features li {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+.features li p {
+    margin: 0; /* Прибираємо зайві відступи */
+    padding: 0; /* Прибираємо зайві внутрішні відступи */
+    line-height: 1.5; /* Робимо текст більш компактним */
+    text-align: left; /* Вирівнюємо текст по лівому краю */
 }
 
 .features li:hover {
@@ -195,12 +205,28 @@ header .contacts ul li {
 }
 
 .features h3 {
-    font-weight: 700;
-    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
     margin-bottom: 10px;
+    text-align: left; /* Вирівнюємо текст по лівому краю */
+    color: #2E2F42;
+    ;
 }
 
+.features p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #434455;    ;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left; /* Вирівнюємо текст по лівому краю */
+}
+
+
 /* Team Section Styles */
+/* Стилі для команди */
 .team {
     padding: 60px 20px;
     text-align: center;
@@ -208,10 +234,14 @@ header .contacts ul li {
 }
 
 .team h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size: 36px; /* Розмір шрифту, зазначений у макеті */
+    line-height: 40px; /* Лінійна висота */
+    letter-spacing: 0.02em; /* Відповідає 2% */
+    color: #2E2F42; /* Колір, відповідно до макету */
+    text-align: center; /* Вирівнювання по центру */
+    margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
 }
 
 .team ul {
@@ -227,7 +257,7 @@ header .contacts ul li {
     background-color: #ffffff;
     padding: 20px;
     width: 264px;
-    height: 380px;
+    height: auto; /* Встановлюємо автоматичну висоту, щоб уникнути проблем з адаптацією */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -235,11 +265,36 @@ header .contacts ul li {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    gap: 16px; /* Додаємо відступ між зображенням і текстом */
 }
 
 .team li:hover {
     transform: translateY(-5px);
 }
+
+.team img {
+    width: 100%;
+    height: auto; /* Встановлює висоту автоматично, щоб зберегти пропорції */
+    object-fit: cover; /* Допомагає зберегти потрібну частину зображення, щоб воно не виходило за межі контейнера */
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.team p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 5px;
+}
+
 
 .team img {
     width: 100%;
