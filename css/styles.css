@@ -144,24 +144,22 @@ header .contacts ul li {
   background-color: #4d5ae5; /* IRIS */
   color: #ffffff;
   border: none;
-  width: 169px; /* Відповідно до макету */
-  height: 56px; /* Відповідно до макету */
-  padding: 16px 32px; /* Внутрішні відступи */
+  width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px; /* Радіус */
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
-  letter-spacing: 0.04em
 }
 
+.hero button:focus,
 .hero button:hover {
-  background-color: #3c4dba; /* Додатковий колір для ефекту при наведенні (можна змінити за бажанням) */
-  transform: translateY(-3px);
+  background-color: #404BBF;
 }
 
 /* Features Section Styles */
