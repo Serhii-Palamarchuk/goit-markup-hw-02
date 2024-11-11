@@ -277,18 +277,22 @@ header .contacts ul li {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.team h3 {
+.team-name {
   font-weight: 500;
   font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
   margin-bottom: 10px;
-  color: #2e2f42; /* Колір заголовку */
+  color: #2e2f42; 
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.team p {
+.team-p {
   font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
   font-weight: 400;
   color: #434455; /* Колір тексту */
   margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Portfolio Section Styles */
