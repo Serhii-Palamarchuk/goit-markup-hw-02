@@ -291,32 +291,54 @@ header .contacts ul li {
 
 /* Portfolio Section Styles */
 .portfolio {
-    padding: 60px 20px;
-    text-align: center;
+    padding: 60px 20px 40px 20px; 
+    text-align: left;
     background-color: #ffffff;
 }
 
 .portfolio h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size: 36px; /* Розмір шрифту, зазначений у макеті */
+    line-height: 40px; /* Лінійна висота */
+    color: #2E2F42; /* Колір, відповідно до макету */
+    text-align: center; /* Вирівнювання по центру */
+    margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
 }
 
 .portfolio ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .portfolio li {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    width: 36px;
+    height: 420px;
+
+}
+
+.portfolio-label {
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio h3 {
+    font-weight: 500;
+    font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
+    margin-bottom: 10px;
+    color: #2E2F42; /* Колір заголовку */
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.portfolio p {
+    font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
+    font-weight: 400;
+    color: #434455; /* Колір тексту */
+    margin-top: 0;
+    padding-left: 20px;
 }
 
 .portfolio li:hover {
@@ -324,10 +346,8 @@ header .contacts ul li {
 }
 
 .portfolio img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    width: 360px;
+    height: 300px; /* Встановлюємо однакову висоту для зображень */
 }
 
 /* Footer Section Styles */
