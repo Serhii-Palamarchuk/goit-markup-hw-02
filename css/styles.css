@@ -227,18 +227,19 @@ header .contacts ul li {
 .team {
   padding: 60px 20px;
   text-align: center;
-  background-color: #f0f1f5;
+  background-color: #F4F4FD;
 }
 
-.team h2 {
+.team-h {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px; /* Розмір шрифту, зазначений у макеті */
-  line-height: 40px; /* Лінійна висота */
+  line-height: 1.11; /* Лінійна висота */
   letter-spacing: 0.02em; /* Відповідає 2% */
   color: #2e2f42; /* Колір, відповідно до макету */
   text-align: center; /* Вирівнювання по центру */
-  margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
+  margin-bottom: 40px; 
+  text-transform: capitalize;
 }
 
 .team ul {
@@ -249,7 +250,7 @@ header .contacts ul li {
   margin: 0 auto;
 }
 
-.team li {
+.team-li {
   text-align: center;
   background-color: #ffffff;
   width: 264px;
@@ -263,7 +264,7 @@ header .contacts ul li {
   gap: 15px; /* Додаємо відступ між зображенням і текстом */
 }
 
-.team li:hover {
+.team-li:hover {
   transform: translateY(-5px);
 }
 
