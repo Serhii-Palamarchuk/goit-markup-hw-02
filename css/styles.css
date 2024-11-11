@@ -159,9 +159,9 @@ header .contacts ul li {
   letter-spacing: 0.04em;
 }
 
-.hero button:focus,
-.hero button:hover {
-  background-color: #404BBF;
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #404bbf;
 }
 
 /* Features Section Styles */
