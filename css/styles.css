@@ -129,7 +129,7 @@ header .contacts ul li {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #ffffff; /* Білий колір для тексту */
+  color: #ffffff;
 }
 
 .hero-header {
@@ -137,7 +137,8 @@ header .contacts ul li {
   font-weight: 700;
   font-size: 56px;
   color: #ffffff;
-  line-height: 1.07
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -155,10 +156,11 @@ header .contacts ul li {
   border-radius: 4px; /* Радіус */
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
+  letter-spacing: 0.04em;
 }
 
-.hero button:focus,
-.hero button:hover {
+.hero-button:focus,
+.hero-button:hover {
   background-color: #404BBF;
 }
 
