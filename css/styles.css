@@ -76,7 +76,7 @@ nav a {
 .hero {
     background-color: #2E2F42;
     color: #ffffff;
-    padding: 120px 0;
+    padding: 100px 0;
     text-align: center;
     position: relative;
 }
@@ -123,14 +123,14 @@ nav a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .features ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -163,22 +163,23 @@ nav a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .team ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
     gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .team li {
     text-align: center;
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 0px;
+    width: 264px;
+    height: 380px;
+    border-radius: 0px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
@@ -188,15 +189,24 @@ nav a {
 }
 
 .team img {
-    border-radius: 8px;
-    margin-bottom: 20px;
+    width: 264px;
+    height: 260px;
+    border-radius: 0px;
+    margin-bottom: 0px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .team h3 {
-    font-weight: 700;
-    font-size: 1.25rem;
-    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.team p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 5px;
 }
 
 /* Portfolio Section Styles */
@@ -210,14 +220,14 @@ nav a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .portfolio ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -237,14 +247,14 @@ nav a {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Footer Section Styles */
 footer {
     background-color: #2E2F42;
     color: #ffffff;
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
