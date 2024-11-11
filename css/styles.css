@@ -1,0 +1,268 @@
+/* CSS файл для оформлення сайту WebStudio */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Відміна дефолтного підкреслення для посилань та маркерів у списках */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #4D5AE5;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.contacts {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.contacts a {
+    color: #333;
+}
+
+.contacts a:hover {
+    color: #4D5AE5;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #2E2F42;
+    color: #ffffff;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.hero button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.hero button:hover {
+    background-color: #3b49c1;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.features h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.features ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.features li {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.features li:hover {
+    transform: translateY(-5px);
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/* Team Section Styles */
+.team {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f0f1f5;
+}
+
+.team h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.team ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team li {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team li:hover {
+    transform: translateY(-5px);
+}
+
+.team img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.portfolio h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.portfolio ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio li {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio li:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #2E2F42;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer a.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+button {
+    cursor: pointer;
+}
