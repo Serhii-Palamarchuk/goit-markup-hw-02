@@ -34,6 +34,10 @@ header {
     justify-content: space-between;
     padding: 0 156px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Закріплюємо шапку */
+    width: 100%;
+    top: 0;
+    z-index: 10; /* Високий пріоритет для накладання */
 }
 
 nav {
@@ -111,12 +115,16 @@ header .contacts a {
     font-style: normal; /* Прибираємо італік */
 }
 
+header .contacts ul li {
+    display: inline;
+    margin-right: 10px; /* Додає проміжок між email та номером */
+}
 
 /* Hero Section Styles */
 .hero {
     position: relative;
     height: 600px;
-    top: 72px;
+    margin-top: 72px; /* Відступ після фіксованого хедера */
     background-color: #2E2F42; /* Колір для фону, відповідно до макету */
     display: flex;
     flex-direction: column;
