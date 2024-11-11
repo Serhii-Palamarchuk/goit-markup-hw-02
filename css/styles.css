@@ -47,7 +47,7 @@ nav {
 
 .studio-link:hover,
 .studio-link:focus {
-  color: #404bff;
+  color: #404bbf;
 }
 
 .logo .studio {
@@ -103,7 +103,7 @@ header .contacts ul {
   padding: 0;
 }
 
-header .contacts a {
+.contact-link {
   color: #434455; /* SLATE */
   font-family: "Roboto", sans-serif;
   font-weight: 400;
