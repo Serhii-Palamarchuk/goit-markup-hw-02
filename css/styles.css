@@ -1,402 +1,402 @@
 /* CSS файл для оформлення сайту WebStudio */
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-  }
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 
 /* Відміна дефолтного підкреслення для посилань та маркерів у списках */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Header Styles */
 header {
-    background-color: #ffffff;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 156px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: fixed; /* Закріплюємо шапку */
-    width: 100%;
-    top: 0;
-    z-index: 10; /* Високий пріоритет для накладання */
+  background-color: #ffffff;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 156px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Закріплюємо шапку */
+  width: 100%;
+  top: 0;
+  z-index: 10; /* Високий пріоритет для накладання */
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
 
-.logo .web, .logo .studio {
-    display: inline; /* Зробити елементи одним рядком */
-    color: inherit;
-    font-weight: inherit;
-    margin: 0; /* Відсутність зайвих відступів */
-    padding: 0;
+.logo .web,
+.logo .studio {
+  display: inline; /* Зробити елементи одним рядком */
+  color: inherit;
+  font-weight: inherit;
+  margin: 0; /* Відсутність зайвих відступів */
+  padding: 0;
 }
 
 .logo .web {
-    color: #4D5AE5; /* Синій колір для "WEB" */
+  color: #4d5ae5; /* Синій колір для "WEB" */
 }
 
 .logo .studio {
-    color: #2E2F42; /* Темно-сірий колір для "STUDIO" */
+  color: #2e2f42; /* Темно-сірий колір для "STUDIO" */
 }
 
 /* Стилі для меню навігації */
 nav ul {
-    display: flex;
-    gap: 40px; /* Відступи між елементами меню */
+  display: flex;
+  gap: 40px; /* Відступи між елементами меню */
 }
 
 nav a {
-    color: #2E2F42; /* NAVY BLUE */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em; /* Відповідає 2% */
-    text-decoration: none;
+  color: #2e2f42; /* NAVY BLUE */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em; /* Відповідає 2% */
+  text-decoration: none;
 }
 
 nav a:hover,
 nav a:focus {
-    color: #4D5AE5; /* Колір при наведенні або фокусі */
+  color: #4d5ae5; /* Колір при наведенні або фокусі */
 }
 
 header .contacts {
-    display: flex;
-    align-items: center; /* Вирівнює по вертикалі */
-    justify-content: flex-end; /* Вирівнює елементи по правому краю */
+  display: flex;
+  align-items: center; /* Вирівнює по вертикалі */
+  justify-content: flex-end; /* Вирівнює елементи по правому краю */
 }
 
 header .contacts ul {
-    display: flex;
-    gap: 20px; /* Відступ між контактами */
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  gap: 20px; /* Відступ між контактами */
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 header .contacts a {
-    color: #434455; /* SLATE */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em; /* Відповідає 2% */
-    text-decoration: none;
-    font-style: normal; /* Прибираємо італік */
+  color: #434455; /* SLATE */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em; /* Відповідає 2% */
+  text-decoration: none;
+  font-style: normal; /* Прибираємо італік */
 }
 
 header .contacts ul li {
-    display: inline;
-    margin-right: 10px; /* Додає проміжок між email та номером */
+  display: inline;
+  margin-right: 10px; /* Додає проміжок між email та номером */
 }
 
 /* Hero Section Styles */
 .hero {
-    position: relative;
-    height: 600px;
-    margin-top: 72px; /* Відступ після фіксованого хедера */
-    background-color: #2E2F42; /* Колір для фону, відповідно до макету */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #FFFFFF; /* Білий колір для тексту */
+  position: relative;
+  height: 600px;
+  margin-top: 72px; /* Відступ після фіксованого хедера */
+  background-color: #2e2f42; /* Колір для фону, відповідно до макету */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff; /* Білий колір для тексту */
 }
 
 .hero h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    margin-bottom: 40px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    max-width: 600px;
-    margin: 0 auto 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 40px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto 40px;
 }
 
 .hero button {
-    background-color: #4D5AE5; /* IRIS */
-    color: #FFFFFF;
-    border: none;
-    width: 169px; /* Відповідно до макету */
-    height: 56px; /* Відповідно до макету */
-    padding: 16px 32px; /* Внутрішні відступи */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px; /* Радіус */
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    text-align: center;
+  background-color: #4d5ae5; /* IRIS */
+  color: #ffffff;
+  border: none;
+  width: 169px; /* Відповідно до макету */
+  height: 56px; /* Відповідно до макету */
+  padding: 16px 32px; /* Внутрішні відступи */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; /* Радіус */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
 }
 
 .hero button:hover {
-    background-color: #3C4DBA; /* Додатковий колір для ефекту при наведенні (можна змінити за бажанням) */
-    transform: translateY(-3px);
+  background-color: #3c4dba; /* Додатковий колір для ефекту при наведенні (можна змінити за бажанням) */
+  transform: translateY(-3px);
 }
 
 /* Features Section Styles */
 .features {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
 }
 
 .features h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 .features ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
-    max-width: 1128px;
-    margin: 0 auto;
-    padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .features li p {
-    margin: 0; /* Прибираємо зайві відступи */
-    padding: 0; /* Прибираємо зайві внутрішні відступи */
-    line-height: 1.5; /* Робимо текст більш компактним */
-    text-align: left; /* Вирівнюємо текст по лівому краю */
+  margin: 0; /* Прибираємо зайві відступи */
+  padding: 0; /* Прибираємо зайві внутрішні відступи */
+  line-height: 1.5; /* Робимо текст більш компактним */
+  text-align: left; /* Вирівнюємо текст по лівому краю */
 }
 
 .features li:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .features h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: left; /* Вирівнюємо текст по лівому краю */
-    color: #2E2F42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left; /* Вирівнюємо текст по лівому краю */
+  color: #2e2f42;
 }
 
 .features p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #434455;
-    line-height: 1.6;
-    margin: 0;
-    text-align: left; /* Вирівнюємо текст по лівому краю */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #434455;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left; /* Вирівнюємо текст по лівому краю */
 }
 
 /* Team Section Styles */
 .team {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #f0f1f5;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f0f1f5;
 }
 
 .team h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px; /* Розмір шрифту, зазначений у макеті */
-    line-height: 40px; /* Лінійна висота */
-    letter-spacing: 0.02em; /* Відповідає 2% */
-    color: #2E2F42; /* Колір, відповідно до макету */
-    text-align: center; /* Вирівнювання по центру */
-    margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px; /* Розмір шрифту, зазначений у макеті */
+  line-height: 40px; /* Лінійна висота */
+  letter-spacing: 0.02em; /* Відповідає 2% */
+  color: #2e2f42; /* Колір, відповідно до макету */
+  text-align: center; /* Вирівнювання по центру */
+  margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
 }
 
 .team ul {
-    display: flex; /* Використовуємо flex для вирівнювання карток в лінію */
-    gap: 32px;
-    justify-content: center; /* Вирівнюємо картки по центру */
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex; /* Використовуємо flex для вирівнювання карток в лінію */
+  gap: 32px;
+  justify-content: center; /* Вирівнюємо картки по центру */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .team li {
-    text-align: center;
-    background-color: #ffffff;
-    width: 264px;
-    height: 380px; /* Фіксована висота для однакового вигляду */
+  text-align: center;
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px; /* Фіксована висота для однакового вигляду */
 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 0px 4px 4px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; /* Забезпечує рівномірний розподіл простору */
-    gap: 15px; /* Додаємо відступ між зображенням і текстом */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 4px 4px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Забезпечує рівномірний розподіл простору */
+  gap: 15px; /* Додаємо відступ між зображенням і текстом */
 }
 
 .team li:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .team img {
-    width: 264px;
-    height: 260px; /* Встановлюємо однакову висоту для зображень */
+  width: 264px;
+  height: 260px; /* Встановлюємо однакову висоту для зображень */
 
-    border-radius: 0px 0px 4px 4px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .team h3 {
-    font-weight: 500;
-    font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
-    margin-bottom: 10px;
-    color: #2E2F42; /* Колір заголовку */
+  font-weight: 500;
+  font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
+  margin-bottom: 10px;
+  color: #2e2f42; /* Колір заголовку */
 }
 
 .team p {
-    font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
-    font-weight: 400;
-    color: #434455; /* Колір тексту */
-    margin-top: 0;
+  font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
+  font-weight: 400;
+  color: #434455; /* Колір тексту */
+  margin-top: 0;
 }
 
 /* Portfolio Section Styles */
 .portfolio {
-    padding: 60px 20px 40px 20px; 
-    text-align: left;
-    background-color: #ffffff;
+  padding: 60px 20px 40px 20px;
+  text-align: left;
+  background-color: #ffffff;
 }
 
 .portfolio h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px; /* Розмір шрифту, зазначений у макеті */
-    line-height: 40px; /* Лінійна висота */
-    color: #2E2F42; /* Колір, відповідно до макету */
-    text-align: center; /* Вирівнювання по центру */
-    margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px; /* Розмір шрифту, зазначений у макеті */
+  line-height: 40px; /* Лінійна висота */
+  color: #2e2f42; /* Колір, відповідно до макету */
+  text-align: center; /* Вирівнювання по центру */
+  margin-bottom: 40px; /* Додатковий відступ знизу для відстані між заголовком та контентом */
 }
 
 .portfolio ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .portfolio li {
-    width: 360px;
-    height: 420px;
-    display: flex;
-    flex-direction: column;
+  width: 360px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio-label {
-    border-width: 0px, 1px, 1px, 1px;
-    border-style: solid;    
-    border-color: #E7E9FC;
-    border-top: 0px;
-    width: 360px;
+  border-width: 0px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+  border-top: 0px;
+  width: 360px;
 }
 
 .portfolio h3 {
-    font-weight: 500;
-    font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
-    margin-bottom: 10px;
-    color: #2E2F42; /* Колір заголовку */
-    padding-left: 20px;
-    padding-top: 15px;
+  font-weight: 500;
+  font-size: 20px; /* Корегуємо розмір шрифту для відповідності макету */
+  margin-bottom: 10px;
+  color: #2e2f42; /* Колір заголовку */
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
 .portfolio p {
-    font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
-    font-weight: 400;
-    color: #434455; /* Колір тексту */
-    margin-top: 0;
-    padding-left: 20px;
+  font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
+  font-weight: 400;
+  color: #434455; /* Колір тексту */
+  margin-top: 0;
+  padding-left: 20px;
 }
 
 .portfolio li:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .portfolio img {
-    width: 360px;
-    height: 300px; /* Встановлюємо однакову висоту для зображень */
+  width: 360px;
+  height: 300px; /* Встановлюємо однакову висоту для зображень */
 }
 
 /* Footer Section Styles */
 footer {
-    background-color: #2E2F42;
-    color: #ffffff;
-    padding: 112px 20px;
-    text-align: left;
-    left: 156px;
-    height: 312px;
+  background-color: #2e2f42;
+  color: #ffffff;
+  padding: 112px 20px;
+  text-align: left;
+  left: 156px;
+  height: 312px;
 }
 
 footer a.logo-footer {
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    padding-left: 156px;
-    text-align: left;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding-left: 156px;
+  text-align: left;
 }
 
 .logo-footer {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
 }
 
-
 .logo-footer .web {
-    color: #4D5AE5; /* Синій колір для "WEB" */
+  color: #4d5ae5; /* Синій колір для "WEB" */
 }
 
 .logo-footer .studio {
-    color:#F4F4FD;
+  color: #f4f4fd;
 }
 
 footer p {
-    max-width: 600px;
-    line-height: 1.6;
-    padding-left: 156px;
-    text-align: left;
+  max-width: 600px;
+  line-height: 1.6;
+  padding-left: 156px;
+  text-align: left;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
