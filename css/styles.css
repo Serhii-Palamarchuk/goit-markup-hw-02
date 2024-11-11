@@ -45,6 +45,12 @@ nav {
   text-transform: uppercase;
 }
 
+.studio-link:hover,
+.studio-link:focus {
+  color: #2e2f42;
+  font-weight: 700;
+}
+
 .logo .studio {
   display: inline; /* Зробити елементи одним рядком */
   color: inherit;
