@@ -47,8 +47,7 @@ nav {
 
 .studio-link:hover,
 .studio-link:focus {
-  color: #2e2f42;
-  font-weight: 700;
+  color: #404bff;
 }
 
 .logo .studio {
@@ -79,10 +78,11 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover,
-nav a:focus {
-  color: #4d5ae5; /* Колір при наведенні або фокусі */
+address ul a:hover,
+address ul a:focus {
+  color: #404bbf; /* Колір при наведенні або фокусі */
 }
+
 
 header .contacts {
   display: flex;
