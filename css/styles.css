@@ -194,6 +194,10 @@ header .contacts ul li {
   text-align: left; /* Вирівнюємо текст по лівому краю */
 }
 
+.features-strategy {
+  letter-spacing: 0.02em;
+}
+
 .features li:hover {
   transform: translateY(-5px);
 }
@@ -202,6 +206,8 @@ header .contacts ul li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 10px;
   text-align: left; /* Вирівнюємо текст по лівому краю */
   color: #2e2f42;
