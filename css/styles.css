@@ -194,7 +194,7 @@ header .contacts ul li {
   text-align: left; /* Вирівнюємо текст по лівому краю */
 }
 
-.features-strategy {
+.features-p {
   letter-spacing: 0.02em;
 }
 
@@ -202,7 +202,7 @@ header .contacts ul li {
   transform: translateY(-5px);
 }
 
-.features h3 {
+.features-h {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
