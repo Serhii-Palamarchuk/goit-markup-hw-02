@@ -100,7 +100,6 @@ header .contacts ul li {
 
 /* Hero Section Styles */
 .hero {
-  margin-top: 72px; /* Відступ після фіксованого хедера */
   background-color: #2e2f42; /* Колір для фону, відповідно до макету */
   justify-content: center;
   text-align: center;
@@ -150,7 +149,6 @@ header .contacts ul li {
 
 .features ul {
   grid-template-columns: repeat(4, 1fr);
-  max-width: 1128px;
   margin: 0 auto;
 }
 
@@ -210,7 +208,6 @@ header .contacts ul li {
 .team ul {
 
   justify-content: center; /* Вирівнюємо картки по центру */
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -246,7 +243,6 @@ header .contacts ul li {
   font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
   font-weight: 400;
   color: #434455; /* Колір тексту */
-  margin-top: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -271,7 +267,6 @@ header .contacts ul li {
 .portfolio ul {
 
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -280,10 +275,8 @@ header .contacts ul li {
 }
 
 .portfolio-label {
-  border-width: 0px, 1px, 1px, 1px;
   border-style: solid;
   border-color: #e7e9fc;
-  border-top: 0px;
 }
 
 .portfolio-name {
@@ -299,7 +292,6 @@ header .contacts ul li {
   font-size: 16px; /* Вирівнюємо розмір шрифту під макет */
   font-weight: 500;
   color: #434455; /* Колір тексту */
-  margin-top: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -316,7 +308,6 @@ header .contacts ul li {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: left;
-  left: 156px;
 }
 
 footer a.logo-footer {
@@ -348,7 +339,6 @@ footer a.logo-footer {
 }
 
 .footer-p {
-  max-width: 600px;
   line-height: 1.5;
   text-align: left;
   color: #f4f4fd;
